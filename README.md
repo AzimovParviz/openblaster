@@ -2,8 +2,8 @@
 
 ## Getting started
 
-- clone this repository
-- install dependencies
+### clone this repository
+### install dependencies
 
 openblaster requires hidapi for communicating with the hardware and json-c for parsing EQ presets
 
@@ -11,15 +11,15 @@ both can be installed with Homebrew on macOS and should be available on your dis
 
 `brew install json-c hidapi`
 
-- generate build files
+### generate build files
 
 `cmake -S . -B build`
 
-- build the executable
+### build the executable
 
 `cd build && make`
 
-- run
+### run
 
 `./openblaster`
 
